@@ -1,2 +1,15 @@
 .env
 node_modules
+
+# Google Cloud / Service Account credentials - NEVER commit these
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!tsconfig*.json
+
+# Specific credential files
+gen-lang-client-*.json
+*-credentials.json
+*-service-account.json
+service-account*.json
