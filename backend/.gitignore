@@ -1,0 +1,12 @@
+node_modules/
+.next/
+build/
+dist/
+.env
+.env.local
+.env.production
+
+# NEVER commit service account keys
+src/lib/credentials/
+*.json.key
+*service-account*.json
